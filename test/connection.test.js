@@ -1,6 +1,6 @@
 import Connection from '../src/connection';
 
-describe.only('Connection', () => {
+describe('Connection', () => {
   let ccb;
   const defaultOptions = {
     login: 'myLogin',
@@ -47,9 +47,11 @@ describe.only('Connection', () => {
         expectedRequest.done();
         return expect(request).to.eventually.eql({
           ccb_api: {
-            response: [
-              { groups: [ { group: ['Hi'] } ] }
-            ]
+            response: {
+              groups: {
+                group: 'Hi'
+              }
+            }
           }
         });
       });
