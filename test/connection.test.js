@@ -1,6 +1,4 @@
-import superagent from 'superagent';
 import Connection from '../src/connection';
-import nock from 'nock';
 
 describe.only('Connection', () => {
   let ccb;
