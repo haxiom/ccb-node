@@ -4,7 +4,7 @@
   "description": "A leightweight wrapper for the Church Community Builder API",
   "main": "dist/index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "npm run lint && mocha",
     "build": "babel -d dist src",
     "lint": "eslint ."
   },

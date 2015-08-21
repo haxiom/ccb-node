@@ -1,9 +1,9 @@
-import ccb from '../src/index';
+import Ccb from '../src/index';
 
-describe('ccb', function () {
+describe('Ccb', function () {
   it('throws an error if login and password not provided', function () {
     expect(() => {
-      let myCcb = new ccb();
+      let myCcb = new Ccb();
     }).to.throw(/must include login, password and church/);
   });
 });
