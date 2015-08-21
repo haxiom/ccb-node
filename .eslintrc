@@ -5,6 +5,8 @@ ecmaFeatures:
   modules: true
   objectLiteralShorthandMethods: true
   objectLiteralShorthandProperties: true
+plugins:
+  - mocha
 rules:
   indent: [2, 2]
   brace-style:
@@ -13,6 +15,7 @@ rules:
     -
       allowSingleLine: true
   comma-style: [2, "last"]
+  mocha/no-exclusive-tests: 2
   default-case: 2
   func-style: [2, "declaration"]
   guard-for-in: 2
