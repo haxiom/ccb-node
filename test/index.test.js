@@ -1,6 +1,6 @@
 import Ccb from '../src/index';
 
-describe('Ccb', function () {
+describe('Ccb Api', function () {
   it('throws an error if login and password not provided', function () {
     expect(() => {
       let myCcb = new Ccb();
