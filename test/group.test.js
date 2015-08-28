@@ -36,7 +36,7 @@ describe('group', () => {
         })
         .catch((err) => {
           done(err);
-        })
+        });
     });
   });
 });

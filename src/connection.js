@@ -41,7 +41,7 @@ export default class {
             if (apiErrors) { return reject(apiErrors); }
 
             resolve(body);
-          })
+          });
         });
     });
   }
