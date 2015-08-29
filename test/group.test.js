@@ -1,10 +1,10 @@
-import {readFileSync} from 'fs';
+import {readFixture} from './support/fixture-helper';
 import Connection from '../src/connection';
 import Group from '../src/group';
 
 describe('group', () => {
   let ccb;
-  let fixture = readFileSync('./test/fixtures/groups-response.xml');
+  let fixture = readFixture('group-response.xml');
   let connection = new Connection({
     login: 'myLogin',
     password: 'myPassword',
