@@ -2,7 +2,7 @@ import {readFixture} from './support/fixture-helper';
 import Connection from '../src/connection';
 import Groups from '../src/groups';
 
-describe('groups', () => {
+describe('Groups', () => {
   let ccb;
   let fixture = readFixture('groups-response.xml');
   let connection = new Connection({
