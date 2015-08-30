@@ -1,4 +1,3 @@
-import {writeFileSync} from 'fs';
 import superagent from 'superagent';
 import {parseString} from 'xml2js';
 
