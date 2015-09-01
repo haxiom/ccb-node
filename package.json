@@ -1,6 +1,6 @@
 {
   "name": "ccb",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A lightweight wrapper for the Church Community Builder API",
   "main": "dist/index.js",
   "scripts": {
@@ -22,9 +22,15 @@
   ],
   "author": "Haxiom",
   "contributors": [
-    {"name": "Sean Zellmer"},
-    {"name": "Blade Barringer"},
-    {"name": "Nick Tomlin"}
+    {
+      "name": "Sean Zellmer"
+    },
+    {
+      "name": "Blade Barringer"
+    },
+    {
+      "name": "Nick Tomlin"
+    }
   ],
   "license": "ISC",
   "homepage": "https://github.com/haxiom/ccb-node",
