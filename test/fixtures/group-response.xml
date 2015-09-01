@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ccb_api>
+     <request>
+          <parameters>
+               <argument value="group_participants" name="srv"/>
+               <argument value="17" name="id"/>
+          </parameters>
+     </request>
+     <response>
+          <service>group_participants</service>
+          <service_action>execute</service_action>
+          <availability>public</availability>
+          <groups count="1">
+               <group id="17">
+                    <name>Group Name</name>
+                    <participants count="2">
+                         <participant id="1234">
+                              <name>Princess Buttercup</name>
+                              <email>buttercup@florincastle.com</email>
+                              <mobile_phone>12312312312</mobile_phone>
+                              <carrier id="0"></carrier>
+                              <receive_email_from_church>true</receive_email_from_church>
+                              <receive_email_from_group>true</receive_email_from_group>
+                              <receive_sms_from_group>false</receive_sms_from_group>
+                              <status id="1">Leader</status>
+                              <date_joined>2012-07-28 15:00:26</date_joined>
+                              <active>true</active>
+                              <creator id="630">William Goldman</creator>
+                              <modifier id="3705">Fred Savage's Grandpa</modifier>
+                              <created>2012-07-28 15:00:26</created>
+                              <modified>2012-08-20 12:49:33</modified>
+                         </participant>
+                         <participant id="4567">
+                              <name>Wesley</name>
+                              <email>wesley@thedreadpirateroberts.com</email>
+                              <mobile_phone></mobile_phone>
+                              <carrier id="0"></carrier>
+                              <receive_email_from_church>true</receive_email_from_church>
+                              <receive_email_from_group>true</receive_email_from_group>
+                              <receive_sms_from_group>false</receive_sms_from_group>
+                              <status id="2">Member</status>
+                              <date_joined>2012-11-09 19:16:38</date_joined>
+                              <active>true</active>
+                              <creator id="630">William Goldman</creator>
+                              <modifier id="3705">Fred Savage's Grandpa</modifier>
+                              <created>2012-11-09 19:16:38</created>
+                              <modified>2012-11-19 09:32:54</modified>
+                         </participant>
+                    </participants>
+               </group>
+          </groups>
+     </response>
+</ccb_api>

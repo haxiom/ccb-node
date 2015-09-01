@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ccb_api>
+     <request>
+          <parameters>
+               <argument value="group_profiles" name="srv"/>
+               <argument value="2010-02-01" name="modified_since"/>
+               <argument value="false" name="include_participants"/>
+          </parameters>
+     </request>
+     <response>
+          <service>group_profiles</service>
+          <service_action>execute</service_action>
+          <availability>public</availability>
+          <groups count="103">
+            <group id="13">
+              <name>Sound Team</name>
+              <description/>
+              <image>https://s3.amazonaws.com/ccbchurch/26231/pics/g_13?AWSAccessKeyId=AKIAJ4CISARDRJPE4ERQ&amp;Expires=1440769516&amp;Signature=alo%2F4RCBF6j%2FE0sFCsisywm7%2B%2Bw%3D</image>
+              <campus id="1">My Church of Anywhere</campus>
+              <main_leader id="2138">
+                <first_name>Nellie</first_name>
+                <last_name>Hayes</last_name>
+                <full_name>Nellie Hayes</full_name>
+                <email>Nellie.Hayes@yahoo.com</email>
+                <phones>
+                  <phone>612-971-0887</phone>
+                </phones>
+              </main_leader>
+              <group_type id="5">Team</group_type>
+              <department id="4">MyChurchWorship</department>
+              <area id="1">At the Church</area>
+              <calendar_feed>webcal://mychurch.ccbchurch.com/group_calendar.ics?id=13&amp;tk=CADYF3FDUBA4TMR9E47VAAFRZPBZXJFR</calendar_feed>
+              <registration_forms/>
+              <current_members>29</current_members>
+              <group_capacity>Unlimited</group_capacity>
+              <addresses/>
+              <meeting_day id="2">Sunday</meeting_day>
+              <meeting_time id="2">Morning</meeting_time>
+              <childcare_provided>false</childcare_provided>
+              <interaction_type>Members Interact</interaction_type>
+              <membership_type>Invitation or Request Required</membership_type>
+              <notification>false</notification>
+              <user_defined_fields/>
+              <listed>true</listed>
+              <public_search_listed>false</public_search_listed>
+              <inactive>false</inactive>
+              <creator>Adolphus Spinka Ms.</creator>
+              <modifier>Waino Moen</modifier>
+              <created>2014-06-26 10:16:24</created>
+              <modified>2015-04-23 15:30:52</modified>
+            </group>
+            <group id="15">
+              <name>Ushers</name>
+              <description/>
+              <image>https://s3.amazonaws.com/ccbchurch/26231/pics/g_15?AWSAccessKeyId=AKIAJ4CISARDRJPE4ERQ&amp;Expires=1440769516&amp;Signature=lPeCssbjBgWaNaY%2F9sT53UHQgLo%3D</image>
+              <campus id="1">My Church of Anywhere</campus>
+              <main_leader id="4790">
+                <first_name>Helene</first_name>
+                <last_name>Legros</last_name>
+                <full_name>Helene Legros</full_name>
+                <email>Helene.Legros@yahoo.com</email>
+                <phones>
+                  <phone>1-455-468-6867 x24238</phone>
+                </phones>
+              </main_leader>
+              <group_type id="5">Team</group_type>
+              <department id="0"/>
+              <area id="0"/>
+              <calendar_feed>webcal://mychurch.ccbchurch.com/group_calendar.ics?id=15&amp;tk=54N9UCHBWRHX6TQHGJVVAPM9MSR5XHND</calendar_feed>
+              <registration_forms/>
+              <current_members>1</current_members>
+              <group_capacity>Unlimited</group_capacity>
+              <addresses/>
+              <meeting_day id="0"/>
+              <meeting_time id="0"/>
+              <childcare_provided>false</childcare_provided>
+              <interaction_type>Members Interact</interaction_type>
+              <membership_type>Invitation or Request Required</membership_type>
+              <notification>false</notification>
+              <user_defined_fields/>
+              <listed>false</listed>
+              <public_search_listed>false</public_search_listed>
+              <inactive>true</inactive>
+              <creator>Ms. Margret Greenfelder</creator>
+              <modifier>Aubree Huels</modifier>
+              <created>2014-06-26 14:07:50</created>
+              <modified>2014-08-13 11:23:29</modified>
+            </group>
+            <group id="17">
+              <name>Cafe Team</name>
+              <description/>
+              <image>https://s3.amazonaws.com/ccbchurch/26231/pics/g_17?AWSAccessKeyId=AKIAJ4CISARDRJPE4ERQ&amp;Expires=1440769516&amp;Signature=CYq7EXnZGAEXHRBNLuPApP14VaU%3D</image>
+              <campus id="1">My Church of Anywhere</campus>
+              <main_leader id="1457">
+                <first_name>Jovanny</first_name>
+                <last_name>Murphy</last_name>
+                <full_name>Jovanny Murphy</full_name>
+                <email>Jovanny.Murphy@yahoo.com</email>
+                <phones>
+                  <phone>575-607-8701 x93340</phone>
+                </phones>
+              </main_leader>
+              <group_type id="5">Team</group_type>
+              <department id="9">MyChurchMission</department>
+              <area id="0"/>
+              <calendar_feed>webcal://mychurch.ccbchurch.com/group_calendar.ics?id=17&amp;tk=JM4QRXCW5S96557GHCF39AZ9A58TY7DT</calendar_feed>
+              <registration_forms/>
+              <current_members>16</current_members>
+              <group_capacity>Unlimited</group_capacity>
+              <addresses/>
+              <meeting_day id="2">Sunday</meeting_day>
+              <meeting_time id="2">Morning</meeting_time>
+              <childcare_provided>false</childcare_provided>
+              <interaction_type>Members Interact</interaction_type>
+              <membership_type>Invitation or Request Required</membership_type>
+              <notification>false</notification>
+              <user_defined_fields/>
+              <listed>true</listed>
+              <public_search_listed>false</public_search_listed>
+              <inactive>false</inactive>
+              <creator>Juliana Weissnat</creator>
+              <modifier>Godfrey Herman Mrs.</modifier>
+              <created>2014-06-26 14:08:59</created>
+              <modified>2014-11-19 09:52:35</modified>
+            </group>
+          </groups>
+     </response>
+</ccb_api>

@@ -1,53 +1,555 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ccb_api>
-     <request>
-          <parameters>
-               <argument value="group_participants" name="srv"/>
-               <argument value="17" name="id"/>
-          </parameters>
-     </request>
-     <response>
-          <service>group_participants</service>
-          <service_action>execute</service_action>
-          <availability>public</availability>
-          <groups count="1">
-               <group id="17">
-                    <name>Group Name</name>
-                    <participants count="2">
-                         <participant id="1234">
-                              <name>Princess Buttercup</name>
-                              <email>buttercup@florincastle.com</email>
-                              <mobile_phone>12312312312</mobile_phone>
-                              <carrier id="0"></carrier>
-                              <receive_email_from_church>true</receive_email_from_church>
-                              <receive_email_from_group>true</receive_email_from_group>
-                              <receive_sms_from_group>false</receive_sms_from_group>
-                              <status id="1">Leader</status>
-                              <date_joined>2012-07-28 15:00:26</date_joined>
-                              <active>true</active>
-                              <creator id="630">William Goldman</creator>
-                              <modifier id="3705">Fred Savage's Grandpa</modifier>
-                              <created>2012-07-28 15:00:26</created>
-                              <modified>2012-08-20 12:49:33</modified>
-                         </participant>
-                         <participant id="4567">
-                              <name>Wesley</name>
-                              <email>wesley@thedreadpirateroberts.com</email>
-                              <mobile_phone></mobile_phone>
-                              <carrier id="0"></carrier>
-                              <receive_email_from_church>true</receive_email_from_church>
-                              <receive_email_from_group>true</receive_email_from_group>
-                              <receive_sms_from_group>false</receive_sms_from_group>
-                              <status id="2">Member</status>
-                              <date_joined>2012-11-09 19:16:38</date_joined>
-                              <active>true</active>
-                              <creator id="630">William Goldman</creator>
-                              <modifier id="3705">Fred Savage's Grandpa</modifier>
-                              <created>2012-11-09 19:16:38</created>
-                              <modified>2012-11-19 09:32:54</modified>
-                         </participant>
-                    </participants>
-               </group>
-          </groups>
-     </response>
+  <request>
+    <parameters>
+      <argument value="group_profiles" name="srv"/>
+    </parameters>
+  </request>
+  <response>
+    <service>group_profiles</service>
+    <service_action>execute</service_action>
+    <availability>public</availability>
+    <groups count="103">
+      <group id="13">
+        <name>Sound Team</name>
+        <description/>
+        <image>https://s3.amazonaws.com/ccbchurch/26231/pics/g_13?AWSAccessKeyId=AKIAJ4CISARDRJPE4ERQ&amp;Expires=1440769516&amp;Signature=alo%2F4RCBF6j%2FE0sFCsisywm7%2B%2Bw%3D</image>
+        <campus id="1">My Church of Anywhere</campus>
+        <main_leader id="2138">
+          <first_name>Nellie</first_name>
+          <last_name>Hayes</last_name>
+          <full_name>Nellie Hayes</full_name>
+          <email>Nellie.Hayes@yahoo.com</email>
+          <phones>
+            <phone>612-971-0887</phone>
+          </phones>
+        </main_leader>
+        <leaders>
+          <leader id="646">
+            <first_name>Jerod</first_name>
+            <last_name>Little</last_name>
+            <full_name>Jerod Little</full_name>
+            <email>Jerod.Little@yahoo.com</email>
+            <phones>
+              <phone>(924) 813-9366</phone>
+            </phones>
+          </leader>
+          <leader id="1817">
+            <first_name>Lorine</first_name>
+            <last_name>Dicki</last_name>
+            <full_name>Lorine Dicki</full_name>
+            <email>Lorine.Dicki@yahoo.com</email>
+            <phones>
+              <phone>572-119-7489 x498</phone>
+            </phones>
+          </leader>
+          <leader id="1748">
+            <first_name>Laurel</first_name>
+            <last_name>Smitham</last_name>
+            <full_name>Laurel Smitham</full_name>
+            <email>Laurel.Smitham@yahoo.com</email>
+            <phones>
+              <phone>277-438-6277</phone>
+            </phones>
+          </leader>
+          <leader id="5038">
+            <first_name>Shayna</first_name>
+            <last_name>Lebsack</last_name>
+            <full_name>Shayna Lebsack</full_name>
+            <email>Shayna.Lebsack@yahoo.com</email>
+            <phones>
+              <phone>(868) 115-6605</phone>
+            </phones>
+          </leader>
+          <leader id="317">
+            <first_name>Ludwig</first_name>
+            <last_name>Streich</last_name>
+            <full_name>Ludwig Streich</full_name>
+            <email>Ludwig.Streich@yahoo.com</email>
+            <phones>
+              <phone>558-436-4065</phone>
+            </phones>
+          </leader>
+          <leader id="3705">
+            <first_name>Laurel</first_name>
+            <last_name>Schiller</last_name>
+            <full_name>Laurel Schiller</full_name>
+            <email>Laurel.Schiller@yahoo.com</email>
+            <phones>
+              <phone>(400) 043-0643 x500</phone>
+            </phones>
+          </leader>
+          <leader id="6092">
+            <first_name>Bailee</first_name>
+            <last_name>Hand</last_name>
+            <full_name>Bailee Hand</full_name>
+            <email>Bailee.Hand@yahoo.com</email>
+            <phones>
+              <phone>1-069-802-7373 x39621</phone>
+            </phones>
+          </leader>
+          <leader id="4790">
+            <first_name>Germaine</first_name>
+            <last_name>Raynor</last_name>
+            <full_name>Germaine Raynor</full_name>
+            <email>Germaine.Raynor@yahoo.com</email>
+            <phones>
+              <phone>046-445-5209 x5132</phone>
+            </phones>
+          </leader>
+        </leaders>
+        <participants>
+          <participant id="6387">
+            <first_name>Miguel</first_name>
+            <last_name>Stark</last_name>
+            <full_name>Miguel Stark</full_name>
+            <email>Miguel.Stark@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>824.035.2801 x841</phone>
+            </phones>
+          </participant>
+          <participant id="5569">
+            <first_name>Nathanael</first_name>
+            <last_name>Stokes</last_name>
+            <full_name>Nathanael Stokes</full_name>
+            <email>Nathanael.Stokes@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>(828) 863-7430</phone>
+            </phones>
+          </participant>
+          <participant id="4887">
+            <first_name>Sincere</first_name>
+            <last_name>Mohr</last_name>
+            <full_name>Sincere Mohr</full_name>
+            <email>Sincere.Mohr@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>1-656-298-6424 x025</phone>
+            </phones>
+          </participant>
+          <participant id="4886">
+            <first_name>Donny</first_name>
+            <last_name>Barrows</last_name>
+            <full_name>Donny Barrows</full_name>
+            <email>Donny.Barrows@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>617.695.8096 x9713</phone>
+            </phones>
+          </participant>
+          <participant id="503">
+            <first_name>Zion</first_name>
+            <last_name>Hamill</last_name>
+            <full_name>Zion Hamill</full_name>
+            <email>Zion.Hamill@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>1-625-426-7470</phone>
+            </phones>
+          </participant>
+          <participant id="787">
+            <first_name>Verlie</first_name>
+            <last_name>Tromp</last_name>
+            <full_name>Verlie Tromp</full_name>
+            <email>Verlie.Tromp@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>136.231.0711 x843</phone>
+            </phones>
+          </participant>
+          <participant id="7138">
+            <first_name>Leslie</first_name>
+            <last_name>Luettgen</last_name>
+            <full_name>Leslie Luettgen</full_name>
+            <email>Leslie.Luettgen@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>1-467-635-9257 x84091</phone>
+            </phones>
+          </participant>
+          <participant id="5066">
+            <first_name>Rory</first_name>
+            <last_name>Hirthe</last_name>
+            <full_name>Rory Hirthe</full_name>
+            <email>Rory.Hirthe@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>583.947.1137 x16609</phone>
+            </phones>
+          </participant>
+          <participant id="4185">
+            <first_name>Novella</first_name>
+            <last_name>Daugherty</last_name>
+            <full_name>Novella Daugherty</full_name>
+            <email>Novella.Daugherty@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>194-824-7285 x5385</phone>
+            </phones>
+          </participant>
+          <participant id="4186">
+            <first_name>Elinor</first_name>
+            <last_name>Dietrich</last_name>
+            <full_name>Elinor Dietrich</full_name>
+            <email>Elinor.Dietrich@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>742-166-5849</phone>
+            </phones>
+          </participant>
+          <participant id="2501">
+            <first_name>Felicity</first_name>
+            <last_name>Steuber</last_name>
+            <full_name>Felicity Steuber</full_name>
+            <email>Felicity.Steuber@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>627-263-1335 x1266</phone>
+            </phones>
+          </participant>
+          <participant id="3488">
+            <first_name>Sedrick</first_name>
+            <last_name>Beer</last_name>
+            <full_name>Sedrick Beer</full_name>
+            <email>Sedrick.Beer@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>1-267-718-9929 x7813</phone>
+            </phones>
+          </participant>
+          <participant id="1377">
+            <first_name>Valentin</first_name>
+            <last_name>Wiza</last_name>
+            <full_name>Valentin Wiza</full_name>
+            <email>Valentin.Wiza@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>259.638.4483 x03595</phone>
+            </phones>
+          </participant>
+          <participant id="5929">
+            <first_name>Camryn</first_name>
+            <last_name>Durgan</last_name>
+            <full_name>Camryn Durgan</full_name>
+            <email>Camryn.Durgan@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>291-489-8720 x238</phone>
+            </phones>
+          </participant>
+          <participant id="4859">
+            <first_name>Ottis</first_name>
+            <last_name>Mertz</last_name>
+            <full_name>Ottis Mertz</full_name>
+            <email>Ottis.Mertz@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>914.637.9460 x4034</phone>
+            </phones>
+          </participant>
+          <participant id="4839">
+            <first_name>Clifton</first_name>
+            <last_name>Prosacco</last_name>
+            <full_name>Clifton Prosacco</full_name>
+            <email>Clifton.Prosacco@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>1-846-691-0844 x19154</phone>
+            </phones>
+          </participant>
+          <participant id="6865">
+            <first_name>Pearline</first_name>
+            <last_name>Crooks</last_name>
+            <full_name>Pearline Crooks</full_name>
+            <email>Pearline.Crooks@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>811-049-5467</phone>
+            </phones>
+          </participant>
+          <participant id="6696">
+            <first_name>Russ</first_name>
+            <last_name>Gottlieb</last_name>
+            <full_name>Russ Gottlieb</full_name>
+            <email>Russ.Gottlieb@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>1-368-221-9861</phone>
+            </phones>
+          </participant>
+          <participant id="3397">
+            <first_name>Granville</first_name>
+            <last_name>Muller</last_name>
+            <full_name>Granville Muller</full_name>
+            <email>Granville.Muller@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>541.071.3050</phone>
+            </phones>
+          </participant>
+          <participant id="5802">
+            <first_name>Anastacio</first_name>
+            <last_name>Koepp</last_name>
+            <full_name>Anastacio Koepp</full_name>
+            <email>Anastacio.Koepp@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>(397) 708-6932</phone>
+            </phones>
+          </participant>
+        </participants>
+        <group_type id="5">Team</group_type>
+        <department id="4">MyChurchWorship</department>
+        <area id="1">At the Church</area>
+        <calendar_feed>webcal://mychurch.ccbchurch.com/group_calendar.ics?id=13&amp;tk=CADYF3FDUBA4TMR9E47VAAFRZPBZXJFR</calendar_feed>
+        <registration_forms/>
+        <current_members>29</current_members>
+        <group_capacity>Unlimited</group_capacity>
+        <addresses/>
+        <meeting_day id="2">Sunday</meeting_day>
+        <meeting_time id="2">Morning</meeting_time>
+        <childcare_provided>false</childcare_provided>
+        <interaction_type>Members Interact</interaction_type>
+        <membership_type>Invitation or Request Required</membership_type>
+        <notification>false</notification>
+        <user_defined_fields/>
+        <listed>true</listed>
+        <public_search_listed>false</public_search_listed>
+        <inactive>false</inactive>
+        <creator>Adolphus Spinka Ms.</creator>
+        <modifier>Waino Moen</modifier>
+        <created>2014-06-26 10:16:24</created>
+        <modified>2015-04-23 15:30:52</modified>
+      </group>
+      <group id="15">
+        <name>Ushers</name>
+        <description/>
+        <image>https://s3.amazonaws.com/ccbchurch/26231/pics/g_15?AWSAccessKeyId=AKIAJ4CISARDRJPE4ERQ&amp;Expires=1440769516&amp;Signature=lPeCssbjBgWaNaY%2F9sT53UHQgLo%3D</image>
+        <campus id="1">My Church of Anywhere</campus>
+        <main_leader id="4790">
+          <first_name>Helene</first_name>
+          <last_name>Legros</last_name>
+          <full_name>Helene Legros</full_name>
+          <email>Helene.Legros@yahoo.com</email>
+          <phones>
+            <phone>1-455-468-6867 x24238</phone>
+          </phones>
+        </main_leader>
+        <leaders/>
+        <participants/>
+        <group_type id="5">Team</group_type>
+        <department id="0"/>
+        <area id="0"/>
+        <calendar_feed>webcal://mychurch.ccbchurch.com/group_calendar.ics?id=15&amp;tk=54N9UCHBWRHX6TQHGJVVAPM9MSR5XHND</calendar_feed>
+        <registration_forms/>
+        <current_members>1</current_members>
+        <group_capacity>Unlimited</group_capacity>
+        <addresses/>
+        <meeting_day id="0"/>
+        <meeting_time id="0"/>
+        <childcare_provided>false</childcare_provided>
+        <interaction_type>Members Interact</interaction_type>
+        <membership_type>Invitation or Request Required</membership_type>
+        <notification>false</notification>
+        <user_defined_fields/>
+        <listed>false</listed>
+        <public_search_listed>false</public_search_listed>
+        <inactive>true</inactive>
+        <creator>Ms. Margret Greenfelder</creator>
+        <modifier>Aubree Huels</modifier>
+        <created>2014-06-26 14:07:50</created>
+        <modified>2014-08-13 11:23:29</modified>
+      </group>
+      <group id="17">
+        <name>Cafe Team</name>
+        <description/>
+        <image>https://s3.amazonaws.com/ccbchurch/26231/pics/g_17?AWSAccessKeyId=AKIAJ4CISARDRJPE4ERQ&amp;Expires=1440769516&amp;Signature=CYq7EXnZGAEXHRBNLuPApP14VaU%3D</image>
+        <campus id="1">My Church of Anywhere</campus>
+        <main_leader id="1457">
+          <first_name>Jovanny</first_name>
+          <last_name>Murphy</last_name>
+          <full_name>Jovanny Murphy</full_name>
+          <email>Jovanny.Murphy@yahoo.com</email>
+          <phones>
+            <phone>575-607-8701 x93340</phone>
+          </phones>
+        </main_leader>
+        <leaders>
+          <leader id="4576">
+            <first_name>Ashlynn</first_name>
+            <last_name>Hilpert</last_name>
+            <full_name>Ashlynn Hilpert</full_name>
+            <email>Ashlynn.Hilpert@yahoo.com</email>
+            <phones>
+              <phone>206-682-2966</phone>
+            </phones>
+          </leader>
+          <leader id="3705">
+            <first_name>Nona</first_name>
+            <last_name>Bogan</last_name>
+            <full_name>Nona Bogan</full_name>
+            <email>Nona.Bogan@yahoo.com</email>
+            <phones>
+              <phone>778.666.1367</phone>
+            </phones>
+          </leader>
+          <leader id="4187">
+            <first_name>Evans</first_name>
+            <last_name>Breitenberg</last_name>
+            <full_name>Evans Breitenberg</full_name>
+            <email>Evans.Breitenberg@yahoo.com</email>
+            <phones>
+              <phone>(622) 371-5622 x378</phone>
+            </phones>
+          </leader>
+        </leaders>
+        <participants>
+          <participant id="343">
+            <first_name>Alysha</first_name>
+            <last_name>Bruen</last_name>
+            <full_name>Alysha Bruen</full_name>
+            <email>Alysha.Bruen@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>(372) 047-1138 x0001</phone>
+            </phones>
+          </participant>
+          <participant id="6603">
+            <first_name>Ian</first_name>
+            <last_name>Dietrich</last_name>
+            <full_name>Ian Dietrich</full_name>
+            <email>Ian.Dietrich@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>005-915-2279 x591</phone>
+            </phones>
+          </participant>
+          <participant id="3497">
+            <first_name>Monica</first_name>
+            <last_name>Hauck</last_name>
+            <full_name>Monica Hauck</full_name>
+            <email>Monica.Hauck@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>1-612-864-7925 x55220</phone>
+            </phones>
+          </participant>
+          <participant id="4376">
+            <first_name>Eldon</first_name>
+            <last_name>Wintheiser</last_name>
+            <full_name>Eldon Wintheiser</full_name>
+            <email>Eldon.Wintheiser@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>513.761.3007 x59030</phone>
+            </phones>
+          </participant>
+          <participant id="2654">
+            <first_name>Nicholaus</first_name>
+            <last_name>Kuhic</last_name>
+            <full_name>Nicholaus Kuhic</full_name>
+            <email>Nicholaus.Kuhic@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>186.750.9711 x1150</phone>
+            </phones>
+          </participant>
+          <participant id="2658">
+            <first_name>Paxton</first_name>
+            <last_name>Schulist</last_name>
+            <full_name>Paxton Schulist</full_name>
+            <email>Paxton.Schulist@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>721.637.2559 x180</phone>
+            </phones>
+          </participant>
+          <participant id="1713">
+            <first_name>Faye</first_name>
+            <last_name>Morar</last_name>
+            <full_name>Faye Morar</full_name>
+            <email>Faye.Morar@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>974.021.4229</phone>
+            </phones>
+          </participant>
+          <participant id="4251">
+            <first_name>Ellsworth</first_name>
+            <last_name>Lebsack</last_name>
+            <full_name>Ellsworth Lebsack</full_name>
+            <email>Ellsworth.Lebsack@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>569.647.2764 x1503</phone>
+            </phones>
+          </participant>
+          <participant id="5588">
+            <first_name>Cullen</first_name>
+            <last_name>Wehner</last_name>
+            <full_name>Cullen Wehner</full_name>
+            <email>Cullen.Wehner@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>238-458-9924</phone>
+            </phones>
+          </participant>
+          <participant id="3246">
+            <first_name>Wendell</first_name>
+            <last_name>Cummings</last_name>
+            <full_name>Wendell Cummings</full_name>
+            <email>Wendell.Cummings@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>495-490-3264</phone>
+            </phones>
+          </participant>
+          <participant id="2559">
+            <first_name>Celestino</first_name>
+            <last_name>Predovic</last_name>
+            <full_name>Celestino Predovic</full_name>
+            <email>Celestino.Predovic@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>011-251-0862</phone>
+            </phones>
+          </participant>
+          <participant id="6300">
+            <first_name>Urban</first_name>
+            <last_name>Kovacek</last_name>
+            <full_name>Urban Kovacek</full_name>
+            <email>Urban.Kovacek@yahoo.com</email>
+            <status>Member</status>
+            <phones type="contact">
+              <phone>842.435.0033 x90954</phone>
+            </phones>
+          </participant>
+        </participants>
+        <group_type id="5">Team</group_type>
+        <department id="9">MyChurchMission</department>
+        <area id="0"/>
+        <calendar_feed>webcal://mychurch.ccbchurch.com/group_calendar.ics?id=17&amp;tk=JM4QRXCW5S96557GHCF39AZ9A58TY7DT</calendar_feed>
+        <registration_forms/>
+        <current_members>16</current_members>
+        <group_capacity>Unlimited</group_capacity>
+        <addresses/>
+        <meeting_day id="2">Sunday</meeting_day>
+        <meeting_time id="2">Morning</meeting_time>
+        <childcare_provided>false</childcare_provided>
+        <interaction_type>Members Interact</interaction_type>
+        <membership_type>Invitation or Request Required</membership_type>
+        <notification>false</notification>
+        <user_defined_fields/>
+        <listed>true</listed>
+        <public_search_listed>false</public_search_listed>
+        <inactive>false</inactive>
+        <creator>Juliana Weissnat</creator>
+        <modifier>Godfrey Herman Mrs.</modifier>
+        <created>2014-06-26 14:08:59</created>
+        <modified>2014-11-19 09:52:35</modified>
+      </group>
+    </groups>
+  </response>
 </ccb_api>
