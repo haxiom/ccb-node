@@ -5,3 +5,22 @@ ccb-node
 
 A lightweight wrapper for the Church Community Builder API
 
+# Releasing
+
+Use [mversion](https://www.npmjs.com/package/mversion) to easily release a new version.
+
+```shell
+npm i -g mversion
+
+# mversion [ major | minor | patch ]
+mversion minor
+```
+
+This will:
+
+- run the tests
+- update `package.json`
+- add a commit and git tag
+- push the current branch
+- push git tags
+- release on NPM
