@@ -1,6 +1,6 @@
 {
   "name": "ccb",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A lightweight wrapper for the Church Community Builder API",
   "main": "dist/index.js",
   "scripts": {
