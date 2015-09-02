@@ -1,4 +1,5 @@
 import Group from './group';
+import Groups from './groups';
 import Connection from './connection';
 
 export default class {
@@ -21,5 +22,11 @@ export default class {
         id: options.id
       });
     }
+  }
+
+  groups () {
+    return new Groups({
+      connection: this._connection
+    });
   }
 };
